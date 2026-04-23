@@ -4,9 +4,10 @@ import type {
   CreateExpenseInput,
   Expense,
 } from "./types";
+const BASE_URL = import.meta.env.VITE_API_URL;
 
-const EXPENSES_ENDPOINT = "/api/expenses";
-const CATEGORIES_ENDPOINT = "/api/categories";
+const EXPENSES_ENDPOINT = `${BASE_URL}/api/expenses`;
+const CATEGORIES_ENDPOINT = `${BASE_URL}/api/categories`;
 
 const readResponse = async <T>(response: Response): Promise<T> => {
   const payload = await response.json().catch(() => ({}));
