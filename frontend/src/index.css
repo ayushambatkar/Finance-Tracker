@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  font-family: "Sora", "Segoe UI", sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #1a231f;
+  background: radial-gradient(circle at 15% 20%, #f6f6da 0%, #efe6ca 40%, #ddebdc 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
