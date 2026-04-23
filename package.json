@@ -17,8 +17,5 @@
   "workspaces": [
     "backend",
     "frontend"
-  ],
-  "devDependencies": {
-    "@esbuild/win32-x64": "^0.27.7"
-  }
+  ]
 }
